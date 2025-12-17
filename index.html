@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Sales - Shop.Mimihapa.cotz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .site-title, .category-heading {
+        }
+        
+        header {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .site-title {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .site-subtitle {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        
+        .category {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .category-heading {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 45px;
+            color: #2980b9;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        
+        .materials-list {
+            list-style-type: none;
+        }
+        
+        .material-item {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .material-item:hover {
+            background-color: #e8f4fc;
+            transform: translateX(5px);
+        }
+        
+        .material-name {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .material-name:hover {
+            color: #2980b9;
+        }
+        
+        .material-link-container {
+            margin-left: 20px;
+        }
+        
+        .material-link {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 6px 12px;
+            background-color: #fff;
+            border: 1px solid #e74c3c;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .material-link:hover {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .pdf-icon {
+            color: #e74c3c;
+            margin-right: 10px;
+            font-weight: bold;
+            min-width: 40px;
+        }
+        
+        .new-gif {
+            width: 40px;
+            height: auto;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        
+        .material-content {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #7f8c8d;
+            border-top: 1px solid #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            .site-title {
+                font-size: 2rem;
+            }
+            
+            .category {
+                padding: 15px;
+            }
+            
+            .material-item {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .material-link-container {
+                margin-left: 0;
+                margin-top: 10px;
+                align-self: flex-end;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title">MimiHapa MEDICINE</h1>
+        <p class="site-subtitle">#1 Source Of Materials 4 Health Courses, Official Medicine Websites, Home Of Medicine</p>
+    </header>
+    
+    <main>
+        <!-- Category 1 -->
+        <section class="category">
+           <center> <h2 class="category-heading">Materials Available Now </h2></center>
+            <ul class="materials-list">
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                            Notes Za Wizara 2025
+                         
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                            New Modules 2025
+                         
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New"> All Past Papers
+                            
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                            CAT 1, CAT 2, End Of Semister Past Papers
+                            
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                            All Medical Books You Wants
+                            
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            All Prac Exams, Possible Questions, Banks Of Questions.
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+                <li class="material-item">
+                    <div class="material-content">
+                        <span class="pdf-icon">PDF</span>
+                        <span class="material-name">
+                            NACTVECT End Of Semister II Past Papers
+                            <img src="https://www.nactvet.go.tz/public/assets/images/upload/new.gif" class="new-gif" alt="New">
+                        </span>
+                    </div>
+                    <div class="material-link-container">
+                        <a onclick="window.open('send.html');" href="https://cutt.ly/Ytu0B4YH" class="material-link" target="_blank">Download Here</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>MimiHapa MEDICINE: <strong>HOME OF MEDICINE</strong></p>
+        <p>2020 - 2025 Copyright, All Rights Are Preserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Make entire material item clickable
+            const materialItems = document.querySelectorAll('.material-item');
+            
+            materialItems.forEach(item => {
+                // Get URL from data attribute
+                const url = item.getAttribute('data-url');
+                
+                // Make the entire item clickable (except the button)
+                item.addEventListener('click', function(e) {
+                    // Don't trigger if clicking on the "Download Here" button
+                    if (e.target.classList.contains('material-link') || 
+                        e.target.closest('.material-link-container')) {
+                        return;
+                    }
+                    
+                    // Open the URL in a new tab
+                    if (url) {
+                        window.open(url, '_blank');
+                    }
+                });
+                
+                // Add hover effect to indicate clickability
+                item.style.cursor = 'pointer';
+            });
+            
+            // Optional: Track clicks for analytics
+            materialItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    if (!e.target.classList.contains('material-link') && 
+                        !e.target.closest('.material-link-container')) {
+                        const materialName = this.querySelector('.material-name').textContent.trim();
+                        console.log('Material clicked: ' + materialName);
+                    }
+                });
+            });
+            
+            // Track button clicks separately
+            const materialLinks = document.querySelectorAll('.material-link');
+            materialLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    console.log('Download Here clicked: ' + this.getAttribute('href'));
+                });
+            });
+        });
+    </script>
+</body>
+</html>
